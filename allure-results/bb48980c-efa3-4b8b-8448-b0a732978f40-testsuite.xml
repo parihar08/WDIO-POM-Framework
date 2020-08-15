@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597509124813' stop='1597509165504'>
+    <name>Home page feature test</name>
+    <title>Home page feature test</title>
+    <test-cases>
+        <test-case start='1597509124813' status='undefined'>
+            <name>Verify Home page title</name>
+            <title>Verify Home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597509135611' status='passed' stop='1597509165493'>
+            <name>Verify Home page title</name>
+            <title>Verify Home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597509165494' status='undefined'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597509165498' status='undefined'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597509165500' status='broken' stop='1597509165501'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element.getText is not a function</message>
+                <stack-trace>TypeError: element.getText is not a function
+                    at ElementUtil.dogetText (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/util/elementUtil.js:18:24)
+                    at HomePage.getHeaderText (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/pages/homepage.js:15:28)
+                    at Context.&lt;anonymous> (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/test/hometest.js:22:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

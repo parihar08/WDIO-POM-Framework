@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597457036817' stop='1597457045611'>
+    <name>Login page feature test</name>
+    <title>Login page feature test</title>
+    <test-cases>
+        <test-case start='1597457036818' status='broken' stop='1597457038368'>
+            <name>Verify Login page title</name>
+            <title>Verify Login page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Command "maximizeWindow" is not yet implemented</message>
+                <stack-trace>Error: Command "maximizeWindow" is not yet implemented
+                    at Browser.retries (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/node_modules/devtools/build/devtoolsdriver.js:75:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/test/logintest.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597457038370' status='passed' stop='1597457044242'>
+            <name>Verify Signup link exists?</name>
+            <title>Verify Signup link exists?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597457044243' status='passed' stop='1597457045610'>
+            <name>Verify Login</name>
+            <title>Verify Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597508343652' stop='1597508395277'>
+    <name>Home page feature test</name>
+    <title>Home page feature test</title>
+    <test-cases>
+        <test-case start='1597508343653' status='undefined'>
+            <name>Verify Home page title</name>
+            <title>Verify Home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597508354526' status='undefined'>
+            <name>Verify Home page title</name>
+            <title>Verify Home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597508384961' status='broken' stop='1597508395265'>
+            <name>Verify Home page title</name>
+            <title>Verify Home page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#username") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#username") still not displayed after 10000ms
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at ElementUtil.doSetValue (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/util/elementUtil.js:12:17)
+                    at LoginPage.doLogin (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/pages/loginpage.js:33:21)
+                    at Context.&lt;anonymous> (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/test/hometest.js:15:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597508395268' status='undefined'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597508395271' status='undefined'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597508395273' status='broken' stop='1597508395275'>
+            <name>Verify  Home Page Header text</name>
+            <title>Verify  Home Page Header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-19.5.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element.waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: element.waitForDisplayed is not a function
+                    at ElementUtil.dogetText (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/util/elementUtil.js:17:17)
+                    at HomePage.getHeaderText (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/pages/homepage.js:15:28)
+                    at Context.&lt;anonymous> (/Users/Parihar08/Desktop/Study/WDIO-POM-Framework/test/hometest.js:22:36)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
